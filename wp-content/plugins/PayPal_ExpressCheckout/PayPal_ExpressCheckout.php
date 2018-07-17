@@ -30,7 +30,8 @@ class PayPal_ExpressCheckout {
         'Settings Admin',
         'PayPal ExpressCheckout',
         'manage_options',
-        'my-setting-admin',
+        // 'my-setting-admin',
+        'paypal-settings-group',
         array( $this, 'create_admin_page' )
     );
   }
