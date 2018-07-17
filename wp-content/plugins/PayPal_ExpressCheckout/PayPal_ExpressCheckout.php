@@ -21,6 +21,7 @@ class PayPal_ExpressCheckout {
   // コンストラクタ
   public function __construct() {
     add_action( 'admin_menu', array($this, 'paypalexpresscheckout_add_admin_menu') );
+    add_action( 'admin_init', array( $this, 'paypal_init' ) );
   }
 
   // ダッシュボードにサブメニューを表示するメソッド
@@ -48,6 +49,28 @@ class PayPal_ExpressCheckout {
     </div>
     <?php
   }
+
+  public function paypal_init() {
+    register_setting(
+      'paypal-settings-group', // Option group
+      'paypl_option_name', // Option name
+      array( $this, 'sanitize' ) // Sanitize
+    );
+
+    add_settings_section(
+      'setting_section_id', // ID
+      'My Custom Settings', // Title
+      array( $this, 'print_section_info' ), // Callback
+      'my-setting-admin' // Page
+    );
+
+  }
+
+  public function print_section_info() {
+    print 'Enter your settings below:';
+  }	   
+
+
 }
 
 require(__DIR__ . '/PayPal_ExpressCheckout_admin.php');
