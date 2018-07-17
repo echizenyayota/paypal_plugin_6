@@ -61,14 +61,14 @@ class PayPal_ExpressCheckout {
       'setting_section_id', // ID
       'My Custom Settings', // Title
       array( $this, 'print_section_info' ), // Callback
-      'my-setting-admin' // Page
+      'paypal-settings-group' // Page
     );
 
   }
 
   public function print_section_info() {
     print 'Enter your settings below:';
-  }	   
+  }
 
 
 }
