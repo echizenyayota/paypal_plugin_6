@@ -21,6 +21,7 @@ class PayPal_ExpressCheckout {
   // コンストラクタ
   public function __construct() {
     add_action( 'admin_menu', array($this, 'paypalexpresscheckout_add_admin_menu') );
+    add_action( 'admin_init', array( $this, 'paypal_init' ) );
   }
 
   // ダッシュボードにサブメニューを表示するメソッド
@@ -35,7 +36,7 @@ class PayPal_ExpressCheckout {
   }
 
   public function create_admin_page() {
-    // my_option_nameをoptionsのプロパティとする
+    // paypl_option_nameをoptionsのプロパティとする
     $this->options = get_option( 'paypl_option_name' );
     ?>
     <div class="wrap">
@@ -48,6 +49,7 @@ class PayPal_ExpressCheckout {
     </div>
     <?php
   }
+
 }
 
 require(__DIR__ . '/PayPal_ExpressCheckout_admin.php');
