@@ -21,6 +21,7 @@ class PayPal_ExpressCheckout {
   // コンストラクタ
   public function __construct() {
     add_action( 'admin_menu', array($this, 'paypalexpresscheckout_add_admin_menu') );
+    add_action( 'admin_init', array( $this, 'paypal_init' ) );
   }
 
   // ダッシュボードにサブメニューを表示するメソッド
@@ -48,6 +49,61 @@ class PayPal_ExpressCheckout {
     </div>
     <?php
   }
+
+  public function paypal_init() {
+
+    add_settings_section(
+      'setting_section_id', // ID
+      'PayPal ExpressCheckout Settings', // Title
+      array( $this, 'print_section_info' ), // Callback
+      'paypal-settings-group' // Page
+    );
+
+    add_settings_field(
+      'env', // ID
+      'Enviroment', // Title
+      array( $this, 'enviroment_callback' ), // Callback
+      'paypal-settings-group', // Page
+      'setting_section_id' // Section
+    );
+
+    add_settings_field(
+      'client_id', // ID
+      'cleint ID', // Title
+      array( $this, 'client_id_callback' ), // Callback
+      'paypal-settings-group', // Page
+      'setting_section_id' // Section
+    );
+
+  }
+
+  // 記入案内の文字列を表示
+  public function print_section_info() {
+    print 'Enter your settings below:';
+  }
+
+  // 実行環境の選択
+  public function enviroment_callback() {
+    $opt = <<<EOM
+            <p>
+              <select name="env" size="1">
+                <option value="sandbox">sandbox</option>
+                <option value="production">production</option>
+              </select>
+            </p>
+EOM;
+    echo $opt;
+  }
+
+  // client IDの入力
+  public function client_id_callback() {
+    printf(
+            '<input type="text" id="title" name="paypl_option_name[client_id]" size="90" value="%s" />',
+            isset( $this->options['client_id'] ) ? esc_attr( $this->options['client_id']) : ''
+          );
+  }
+
+
 
 }
 

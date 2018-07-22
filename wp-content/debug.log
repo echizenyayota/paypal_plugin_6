@@ -6,3 +6,146 @@
 [17-Jul-2018 02:19:16 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
 [17-Jul-2018 02:19:16 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
 [17-Jul-2018 02:24:54 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 67
+[22-Jul-2018 02:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'paypal_init' in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[22-Jul-2018 02:32:07 UTC] PHP Stack trace:
+[22-Jul-2018 02:32:07 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[22-Jul-2018 02:32:07 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[22-Jul-2018 02:32:07 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:32:07 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:36:01 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'id_number_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:36:01 UTC] PHP Stack trace:
+[22-Jul-2018 02:36:01 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:36:01 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:36:01 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:36:01 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:36:01 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:36:01 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:36:01 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:36:01 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:37:02 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'id_number_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:37:02 UTC] PHP Stack trace:
+[22-Jul-2018 02:37:02 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:37:02 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:37:02 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:37:02 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:37:02 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:37:02 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:37:02 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:37:02 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:38:13 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'enviroment' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:38:13 UTC] PHP Stack trace:
+[22-Jul-2018 02:38:13 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:38:13 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:38:13 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:38:13 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:38:13 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:38:13 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:38:13 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:38:13 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:39:33 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'enviroment' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:39:33 UTC] PHP Stack trace:
+[22-Jul-2018 02:39:33 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:39:33 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:39:33 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:39:33 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:39:33 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:39:33 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:39:33 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:39:33 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:39:33 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'client_id' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:39:33 UTC] PHP Stack trace:
+[22-Jul-2018 02:39:33 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:39:33 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:39:33 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:39:33 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:39:33 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:39:33 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:39:33 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:39:33 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:40:15 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'enviroment' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:40:15 UTC] PHP Stack trace:
+[22-Jul-2018 02:40:15 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:40:15 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:40:15 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:40:15 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:40:15 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:40:15 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:40:15 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:40:15 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:40:15 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'client_id' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:40:15 UTC] PHP Stack trace:
+[22-Jul-2018 02:40:15 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:40:15 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:40:15 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:40:15 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:40:15 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:40:15 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:40:15 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:40:15 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:41:35 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'enviroment' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:41:35 UTC] PHP Stack trace:
+[22-Jul-2018 02:41:35 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:41:35 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:41:35 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:41:35 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:41:35 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:41:35 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:41:35 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:41:35 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:41:35 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'client_id' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:41:35 UTC] PHP Stack trace:
+[22-Jul-2018 02:41:35 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:41:35 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:41:35 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:41:35 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:41:35 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:41:35 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:41:35 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:41:35 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:42:20 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'enviroment_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:42:20 UTC] PHP Stack trace:
+[22-Jul-2018 02:42:20 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:42:20 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:42:20 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:42:20 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:42:20 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:42:20 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:42:20 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:42:20 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:43:15 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'enviroment_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1378
+[22-Jul-2018 02:43:15 UTC] PHP Stack trace:
+[22-Jul-2018 02:43:15 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:43:15 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:43:15 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:43:15 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:43:15 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:43:15 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:43:15 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:43:15 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:44:32 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[22-Jul-2018 02:44:32 UTC] PHP Stack trace:
+[22-Jul-2018 02:44:32 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:44:32 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:44:32 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:44:32 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:44:32 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:44:32 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:44:32 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:44:32 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:44:32 UTC] PHP   9. PayPal_ExpressCheckout->enviroment_callback() /var/www/wordpress/wp-admin/includes/template.php:1378
+[22-Jul-2018 02:44:32 UTC] PHP  10. printf() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:86
+[22-Jul-2018 02:45:21 UTC] PHP Warning:  printf() expects at least 1 parameter, 0 given in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[22-Jul-2018 02:45:21 UTC] PHP Stack trace:
+[22-Jul-2018 02:45:21 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[22-Jul-2018 02:45:21 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[22-Jul-2018 02:45:21 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[22-Jul-2018 02:45:21 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[22-Jul-2018 02:45:21 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[22-Jul-2018 02:45:21 UTC] PHP   6. PayPal_ExpressCheckout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[22-Jul-2018 02:45:21 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:46
+[22-Jul-2018 02:45:21 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1337
+[22-Jul-2018 02:45:21 UTC] PHP   9. PayPal_ExpressCheckout->enviroment_callback() /var/www/wordpress/wp-admin/includes/template.php:1378
+[22-Jul-2018 02:45:21 UTC] PHP  10. printf() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:86
+[22-Jul-2018 02:48:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 87
+[22-Jul-2018 02:48:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 87
+[22-Jul-2018 02:50:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 97
