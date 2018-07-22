@@ -51,6 +51,12 @@ class PayPal_ExpressCheckout {
   }
 
   public function paypal_init() {
+    // Option groupとOption nameの登録
+    register_setting(
+        'paypal-settings-group', // Option group
+        'paypl_option_name', // Option name
+        array( $this, 'sanitize' ) // Sanitize
+    );
 
     add_settings_section(
       'setting_section_id', // ID
@@ -77,6 +83,15 @@ class PayPal_ExpressCheckout {
 
   }
 
+  // 入力項目のサニタイズ
+  public function sanitize( $input ) {
+    $new_input = array();
+        if( isset( $input['client_id'] ) ) {
+          $new_input['client_id'] = sanitize_text_field( $input['client_id'] );
+        }
+        return $new_input;
+  }
+
   // 記入案内の文字列を表示
   public function print_section_info() {
     print 'Enter your settings below:';
@@ -84,15 +99,14 @@ class PayPal_ExpressCheckout {
 
   // 実行環境の選択
   public function enviroment_callback() {
-    $opt = <<<EOM
-            <p>
-              <select name="env" size="1">
-                <option value="sandbox">sandbox</option>
-                <option value="production">production</option>
-              </select>
-            </p>
-EOM;
-    echo $opt;
+    ?>
+      <p>
+        <select name="env" size="1">
+          <option value="sandbox">sandbox</option>
+          <option value="production">production</option>
+        </select>
+      </p>
+    <?php
   }
 
   // client IDの入力
@@ -102,8 +116,6 @@ EOM;
             isset( $this->options['client_id'] ) ? esc_attr( $this->options['client_id']) : ''
           );
   }
-
-
 
 }
 

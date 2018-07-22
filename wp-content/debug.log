@@ -149,3 +149,11 @@
 [22-Jul-2018 02:48:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 87
 [22-Jul-2018 02:48:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 87
 [22-Jul-2018 02:50:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 97
+[22-Jul-2018 03:07:10 UTC] PHP Notice:  Undefined index: title in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 91
+[22-Jul-2018 03:07:10 UTC] PHP Stack trace:
+[22-Jul-2018 03:07:10 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options.php:0
+[22-Jul-2018 03:07:10 UTC] PHP   2. update_option() /var/www/wordpress/wp-admin/options.php:215
+[22-Jul-2018 03:07:10 UTC] PHP   3. sanitize_option() /var/www/wordpress/wp-includes/option.php:297
+[22-Jul-2018 03:07:10 UTC] PHP   4. apply_filters() /var/www/wordpress/wp-includes/formatting.php:4314
+[22-Jul-2018 03:07:11 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
+[22-Jul-2018 03:07:11 UTC] PHP   6. PayPal_ExpressCheckout->sanitize() /var/www/wordpress/wp-includes/class-wp-hook.php:288
