@@ -1,0 +1,88 @@
+[23-Jul-2018 03:03:18 UTC] PHP Warning:  Missing argument 4 for add_settings_section(), called in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 59 and defined in /var/www/wordpress/wp-admin/includes/template.php on line 1221
+[23-Jul-2018 03:03:18 UTC] PHP Stack trace:
+[23-Jul-2018 03:03:18 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[23-Jul-2018 03:03:18 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[23-Jul-2018 03:03:18 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[23-Jul-2018 03:03:18 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:03:18 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[23-Jul-2018 03:03:18 UTC] PHP   6. PayPal_ExpressCheckout->paypal_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[23-Jul-2018 03:03:18 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:59
+[23-Jul-2018 03:03:18 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1224
+[23-Jul-2018 03:03:18 UTC] PHP Stack trace:
+[23-Jul-2018 03:03:18 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[23-Jul-2018 03:03:18 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[23-Jul-2018 03:03:18 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[23-Jul-2018 03:03:18 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:03:18 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[23-Jul-2018 03:03:18 UTC] PHP   6. PayPal_ExpressCheckout->paypal_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[23-Jul-2018 03:03:18 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:59
+[23-Jul-2018 03:03:18 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1234
+[23-Jul-2018 03:03:18 UTC] PHP Stack trace:
+[23-Jul-2018 03:03:18 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[23-Jul-2018 03:03:18 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[23-Jul-2018 03:03:18 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[23-Jul-2018 03:03:18 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:03:18 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[23-Jul-2018 03:03:18 UTC] PHP   6. PayPal_ExpressCheckout->paypal_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[23-Jul-2018 03:03:18 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:59
+[23-Jul-2018 03:03:18 UTC] PHP Notice:  Undefined variable: page in /var/www/wordpress/wp-admin/includes/template.php on line 1244
+[23-Jul-2018 03:03:18 UTC] PHP Stack trace:
+[23-Jul-2018 03:03:18 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[23-Jul-2018 03:03:18 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[23-Jul-2018 03:03:18 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[23-Jul-2018 03:03:18 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:03:18 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[23-Jul-2018 03:03:18 UTC] PHP   6. PayPal_ExpressCheckout->paypal_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[23-Jul-2018 03:03:18 UTC] PHP   7. add_settings_section() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:59
+[23-Jul-2018 03:03:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wordpress/wp-admin/includes/template.php:1224) in /var/www/wordpress/wp-admin/includes/misc.php on line 1124
+[23-Jul-2018 03:03:18 UTC] PHP Stack trace:
+[23-Jul-2018 03:03:18 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[23-Jul-2018 03:03:18 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[23-Jul-2018 03:03:18 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[23-Jul-2018 03:03:18 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:03:18 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[23-Jul-2018 03:03:18 UTC] PHP   6. wp_admin_headers() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[23-Jul-2018 03:03:18 UTC] PHP   7. header() /var/www/wordpress/wp-admin/includes/misc.php:1124
+[23-Jul-2018 03:03:44 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /var/www/wordpress/wp-includes/functions.php on line 5233
+[23-Jul-2018 03:03:44 UTC] PHP Stack trace:
+[23-Jul-2018 03:03:44 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[23-Jul-2018 03:03:44 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[23-Jul-2018 03:03:44 UTC] PHP   3. require() /var/www/wordpress/wp-admin/admin.php:140
+[23-Jul-2018 03:03:44 UTC] PHP   4. require_once() /var/www/wordpress/wp-admin/menu.php:294
+[23-Jul-2018 03:03:44 UTC] PHP   5. do_action() /var/www/wordpress/wp-admin/includes/menu.php:149
+[23-Jul-2018 03:03:44 UTC] PHP   6. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:03:44 UTC] PHP   7. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[23-Jul-2018 03:03:44 UTC] PHP   8. PayPal_ExpressCheckout->paypalexpresscheckout_add_admin_menu() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[23-Jul-2018 03:03:44 UTC] PHP   9. add_options_page() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:34
+[23-Jul-2018 03:03:44 UTC] PHP  10. add_submenu_page() /var/www/wordpress/wp-admin/includes/plugin.php:1233
+[23-Jul-2018 03:03:44 UTC] PHP  11. plugin_basename() /var/www/wordpress/wp-admin/includes/plugin.php:1151
+[23-Jul-2018 03:03:44 UTC] PHP  12. wp_normalize_path() /var/www/wordpress/wp-includes/plugin.php:654
+[23-Jul-2018 03:03:44 UTC] PHP  13. wp_is_stream() /var/www/wordpress/wp-includes/functions.php:1714
+[23-Jul-2018 03:03:44 UTC] PHP  14. preg_match() /var/www/wordpress/wp-includes/functions.php:5233
+[23-Jul-2018 03:03:44 UTC] PHP Catchable fatal error:  Object of class PayPal_ExpressCheckout could not be converted to string in /var/www/wordpress/wp-includes/functions.php on line 1723
+[23-Jul-2018 03:03:44 UTC] PHP Stack trace:
+[23-Jul-2018 03:03:44 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[23-Jul-2018 03:03:44 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[23-Jul-2018 03:03:44 UTC] PHP   3. require() /var/www/wordpress/wp-admin/admin.php:140
+[23-Jul-2018 03:03:44 UTC] PHP   4. require_once() /var/www/wordpress/wp-admin/menu.php:294
+[23-Jul-2018 03:03:44 UTC] PHP   5. do_action() /var/www/wordpress/wp-admin/includes/menu.php:149
+[23-Jul-2018 03:03:44 UTC] PHP   6. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:03:44 UTC] PHP   7. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[23-Jul-2018 03:03:44 UTC] PHP   8. PayPal_ExpressCheckout->paypalexpresscheckout_add_admin_menu() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[23-Jul-2018 03:03:44 UTC] PHP   9. add_options_page() /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php:34
+[23-Jul-2018 03:03:44 UTC] PHP  10. add_submenu_page() /var/www/wordpress/wp-admin/includes/plugin.php:1233
+[23-Jul-2018 03:03:44 UTC] PHP  11. plugin_basename() /var/www/wordpress/wp-admin/includes/plugin.php:1151
+[23-Jul-2018 03:03:44 UTC] PHP  12. wp_normalize_path() /var/www/wordpress/wp-includes/plugin.php:654
+[23-Jul-2018 03:03:44 UTC] PHP  13. preg_replace() /var/www/wordpress/wp-includes/functions.php:1723
+[23-Jul-2018 03:08:52 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[23-Jul-2018 03:09:03 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[23-Jul-2018 03:09:33 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[23-Jul-2018 03:10:00 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[23-Jul-2018 03:10:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[23-Jul-2018 03:10:40 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 86
+[23-Jul-2018 03:26:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'PayPal_ExpressCheckout' does not have a method 'paypal_init' in /var/www/wordpress/wp-includes/class-wp-hook.php on line 286
+[23-Jul-2018 03:26:41 UTC] PHP Stack trace:
+[23-Jul-2018 03:26:41 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[23-Jul-2018 03:26:41 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:44
+[23-Jul-2018 03:26:41 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[23-Jul-2018 03:26:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
