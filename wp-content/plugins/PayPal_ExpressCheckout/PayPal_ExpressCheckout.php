@@ -37,7 +37,7 @@ class PayPal_ExpressCheckout {
 
   public function create_admin_page() {
     // paypl_option_nameをoptionsのプロパティとする
-    $this->options = get_option( 'paypl_option_name' );
+    $this->options = get_option( 'paypal_option_name' );
     ?>
     <div class="wrap">
        <h2>PayPal ExpressCheckout Settings</h2>
@@ -51,6 +51,13 @@ class PayPal_ExpressCheckout {
   }
 
  public function paypal_init() {
+
+    // Option groupとOption nameの登録
+    register_setting(
+        'paypal-settings-group', // Option group
+        'paypal_option_name', // Option name
+        array( $this, 'sanitize' ) // Sanitize
+    );
 
     add_settings_section(
       'setting_section_id', // ID
@@ -77,6 +84,15 @@ class PayPal_ExpressCheckout {
 
   }
 
+  // 入力項目のサニタイズ
+  public function sanitize( $input ) {
+    $new_input = array();
+    if( isset( $input['client'] ) ) {
+      $new_input['client'] = sanitize_text_field( $input['client'] );
+    }
+    return $new_input;
+  }
+
   // 記入案内の文字列を表示
   public function print_section_info() {
     print 'Enter your settings below:';
@@ -97,8 +113,8 @@ class PayPal_ExpressCheckout {
   // client IDの入力
   public function client_callback() {
     printf(
-            '<input type="text" id="title" name="paypl_option_name[client_id]" size="90" value="%s" />',
-            isset( $this->options['client_id'] ) ? esc_attr( $this->options['client_id']) : ''
+            '<input type="text" id="title" name="paypal_option_name[client]" size="90" value="%s" />',
+            isset( $this->options['client'] ) ? esc_attr( $this->options['client']) : ''
           );
   }
 
