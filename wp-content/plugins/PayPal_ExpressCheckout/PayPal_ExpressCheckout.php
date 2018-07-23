@@ -36,7 +36,7 @@ class PayPal_ExpressCheckout {
   }
 
   public function create_admin_page() {
-    // paypl_option_nameをoptionsのプロパティとする
+    // paypal_option_nameをoptionsのプロパティとする
     $this->options = get_option( 'paypal_option_name' );
     ?>
     <div class="wrap">
