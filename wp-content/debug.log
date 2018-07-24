@@ -1,0 +1,7 @@
+[24-Jul-2018 00:16:15 UTC] PHP Fatal error:  Cannot redeclare PayPal_ExpressCheckout::paypalexpresscheckout_add_admin_menu() in /var/www/wordpress/wp-content/plugins/PayPal_ExpressCheckout/PayPal_ExpressCheckout.php on line 53
+[24-Jul-2018 00:16:15 UTC] PHP Stack trace:
+[24-Jul-2018 00:16:15 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[24-Jul-2018 00:16:15 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[24-Jul-2018 00:16:15 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:13
+[24-Jul-2018 00:16:15 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[24-Jul-2018 00:16:15 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:77
