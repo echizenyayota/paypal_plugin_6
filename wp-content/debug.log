@@ -41,3 +41,295 @@ Stack trace:
 [30-Aug-2018 04:06:51 UTC] PHP  14. do_shortcode_tag() /var/www/wordpress/wp-includes/shortcodes.php:197
 [30-Aug-2018 04:06:51 UTC] PHP  15. epec_paypaldiv_func() /var/www/wordpress/wp-includes/shortcodes.php:319
 [30-Aug-2018 04:06:51 UTC] PHP  16. unserialize() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php:39
+[30-Aug-2018 04:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:28:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:29:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:30:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:32:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:32:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:33:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:33:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:35:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:35:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:37:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:39:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:39:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:41:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 04:41:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 05:18:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 05:19:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 05:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 05:23:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 05:25:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 05:27:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 06:14:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 06:14:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 06:14:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 09:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin.php(31): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-admin/post.php(12): require_once('/var/www/wordpr...')
+#6 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 09:59:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 10:00:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin.php(31): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-admin/post.php(12): require_once('/var/www/wordpr...')
+#6 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 10:02:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin.php(31): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-admin/index.php(10): require_once('/var/www/wordpr...')
+#6 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613
+[30-Aug-2018 10:03:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php:21
+Stack trace:
+#0 /var/www/wordpress/wp-settings.php(305): include_once()
+#1 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-admin/admin.php(31): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/index.php(10): require_once('/var/www/wordpr...')
+#5 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php on line 21
+[30-Aug-2018 10:07:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /var/www/wordpress/wp-includes/capabilities.php:613
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php(18): current_user_can('Administrator')
+#1 /var/www/wordpress/wp-settings.php(305): include_once('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(77): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-admin/admin.php(31): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-admin/index.php(10): require_once('/var/www/wordpr...')
+#6 {main}
+  thrown in /var/www/wordpress/wp-includes/capabilities.php on line 613

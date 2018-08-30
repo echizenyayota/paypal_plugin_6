@@ -15,7 +15,11 @@ Text Domain: echizenya_paypal_express_checkout
 
 require(__DIR__ . '/class-echizenya-paypal-express-checkout.php');
 
-if( is_admin() && current_user_can( 'administrator' ) ) {
+// if( is_admin() && current_user_can( 'Administrator' ) ) {
+//   $pypl_expr = new Echizenya_PayPal_Express_Checkout();
+// }
+
+if( is_admin() ) {
   $pypl_expr = new Echizenya_PayPal_Express_Checkout();
 }
 
