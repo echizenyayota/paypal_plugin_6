@@ -3,7 +3,7 @@
  * @package express
  */
 /*
-Plugin Name: PayPal Express Checkout
+Plugin Name: Echizenya PayPal Express Checkout
 Plugin URI: https://example.com
 Description: PayPal Express Checkout
 Version: 0.0.0
