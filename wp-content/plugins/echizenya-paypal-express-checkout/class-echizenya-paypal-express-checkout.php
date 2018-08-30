@@ -78,7 +78,7 @@ class Echizenya_PayPal_Express_Checkout {
   public function enviroment_callback() {
     ?>
       <p>
-        <select name="env" size="1">
+        <select name="echizenya_paypal_express_checkout[env]" size="1">
           <option value="sandbox">sandbox</option>
           <option value="production">production</option>
         </select>
@@ -88,7 +88,7 @@ class Echizenya_PayPal_Express_Checkout {
   // client IDの入力
   public function client_callback() {
     printf(
-            '<input type="text" id="title" name="paypal_option_name[client]" size="90" value="%s" />',
+            '<input type="text" id="title" name="echizenya_paypal_express_checkout[client]" size="90" value="%s" />',
             isset( $this->options['client'] ) ? esc_attr( $this->options['client']) : ''
           );
   }
