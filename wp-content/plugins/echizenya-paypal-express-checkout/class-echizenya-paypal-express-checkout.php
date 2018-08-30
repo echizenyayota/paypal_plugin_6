@@ -93,4 +93,3 @@ class Echizenya_PayPal_Express_Checkout {
           );
   }
 }
-require(__DIR__ . '/PayPal_ExpressCheckout_admin.php');
