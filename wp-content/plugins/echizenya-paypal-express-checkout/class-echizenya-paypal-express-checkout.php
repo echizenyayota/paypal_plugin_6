@@ -19,7 +19,7 @@ class Echizenya_PayPal_Express_Checkout {
   }
   public function create_admin_page() {
     // paypal_option_nameをoptionsのプロパティとする
-    $this->options = get_option( 'paypal_option_name' );
+    $this->options = get_option( 'echizenya_paypal_express_checkout' );
     ?>
     <div class="wrap">
        <h2>PayPal ExpressCheckout Settings</h2>
