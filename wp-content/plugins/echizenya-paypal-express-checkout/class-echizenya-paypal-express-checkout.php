@@ -35,7 +35,7 @@ class Echizenya_PayPal_Express_Checkout {
     // Option groupとOption nameの登録
     register_setting(
         'paypal-settings-group', // Option group
-        'paypal_option_name', // Option name
+        'echizenya_paypal_express_checkout', // Option name
         array( $this, 'sanitize' ) // Sanitize
     );
     add_settings_section(
@@ -62,7 +62,6 @@ class Echizenya_PayPal_Express_Checkout {
   // 入力項目のサニタイズ
   public function sanitize( $input ) {
     $new_input = array();
-
     if( isset( $input['env'] ) ) {
       $new_input['env'] = sanitize_text_field( $input['env'] );
     }
