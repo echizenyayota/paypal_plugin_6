@@ -1,5 +1,5 @@
 <?php
-class PayPal_ExpressCheckout {
+class Echizenya_PayPal_Express_Checkout {
   // プロパティ
   private $options;
   // コンストラクタ
