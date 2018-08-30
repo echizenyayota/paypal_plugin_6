@@ -20,12 +20,12 @@ if( is_admin() ){
 }
 
 // checkout.jsの読み込み
-function paypal_scripts() {
+function epec_paypal_scripts() {
   wp_enqueue_script( 'paypal-checkout', 'https://www.paypalobjects.com/api/checkout.js' );
 }
-add_action( 'wp_enqueue_scripts', 'paypal_scripts' );
+add_action( 'wp_enqueue_scripts', 'epec_paypal_scripts' );
 // ショートコードとオプションによるPayPalボタンの表示
-function paypaldiv_func( $atts ){
+function epec_paypaldiv_func( $atts ){
   $config = shortcode_atts( array(
     'id' => '',
     'total' => '0',
@@ -35,12 +35,6 @@ function paypaldiv_func( $atts ){
 	), $atts );
   // id、価格、通貨のいずれかがない場合は実行終了
   if ( !$config['id'] || $config['total'] === '0' || !$config['currency'] ) return;
-  // // 実行環境によって使用するトークンを変更する
-  // if ( $config['env'] === 'sandbox' ) {
-  //   $token = "sandbox: 'AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R'";
-  // } elseif ( $config['env'] === 'production' ) {
-  //   $token = "production: 'input your production token'";
-  // }
   // 実行環境の切り替え
   if( 'sandbox' === get_option('env')) {
     // テスト環境
@@ -86,4 +80,4 @@ function paypaldiv_func( $atts ){
   // スクリプトの記述が表示される
   return $paypaldiv;
 }
-add_shortcode( 'paypaldiv', 'paypaldiv_func' );
+add_shortcode( 'paypaldiv', 'epec_paypaldiv_func' );
