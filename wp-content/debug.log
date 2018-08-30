@@ -23,3 +23,21 @@ Stack trace:
 #1 /var/www/wordpress/wp-admin/plugins.php(172): plugin_sandbox_scrape('echizenya-paypa...')
 #2 {main}
   thrown in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php on line 16
+[30-Aug-2018 04:06:51 UTC] PHP Warning:  unserialize() expects parameter 1 to be string, array given in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php on line 39
+[30-Aug-2018 04:06:51 UTC] PHP Stack trace:
+[30-Aug-2018 04:06:51 UTC] PHP   1. {main}() /var/www/wordpress/index.php:0
+[30-Aug-2018 04:06:51 UTC] PHP   2. require() /var/www/wordpress/index.php:17
+[30-Aug-2018 04:06:51 UTC] PHP   3. require_once() /var/www/wordpress/wp-blog-header.php:19
+[30-Aug-2018 04:06:51 UTC] PHP   4. include() /var/www/wordpress/wp-includes/template-loader.php:74
+[30-Aug-2018 04:06:51 UTC] PHP   5. get_template_part() /var/www/wordpress/wp-content/themes/twentyseventeen/single.php:24
+[30-Aug-2018 04:06:51 UTC] PHP   6. locate_template() /var/www/wordpress/wp-includes/general-template.php:155
+[30-Aug-2018 04:06:51 UTC] PHP   7. load_template() /var/www/wordpress/wp-includes/template.php:647
+[30-Aug-2018 04:06:51 UTC] PHP   8. require() /var/www/wordpress/wp-includes/template.php:690
+[30-Aug-2018 04:06:51 UTC] PHP   9. the_content() /var/www/wordpress/wp-content/themes/twentyseventeen/template-parts/post/content.php:58
+[30-Aug-2018 04:06:51 UTC] PHP  10. apply_filters() /var/www/wordpress/wp-includes/post-template.php:240
+[30-Aug-2018 04:06:51 UTC] PHP  11. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
+[30-Aug-2018 04:06:51 UTC] PHP  12. do_shortcode() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[30-Aug-2018 04:06:51 UTC] PHP  13. preg_replace_callback() /var/www/wordpress/wp-includes/shortcodes.php:197
+[30-Aug-2018 04:06:51 UTC] PHP  14. do_shortcode_tag() /var/www/wordpress/wp-includes/shortcodes.php:197
+[30-Aug-2018 04:06:51 UTC] PHP  15. epec_paypaldiv_func() /var/www/wordpress/wp-includes/shortcodes.php:319
+[30-Aug-2018 04:06:51 UTC] PHP  16. unserialize() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php:39

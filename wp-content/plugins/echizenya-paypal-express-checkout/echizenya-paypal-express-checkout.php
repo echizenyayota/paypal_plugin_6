@@ -26,35 +26,31 @@ function epec_paypal_scripts() {
 add_action( 'wp_enqueue_scripts', 'epec_paypal_scripts' );
 // ショートコードとオプションによるPayPalボタンの表示
 function epec_paypaldiv_func( $atts ){
+  $option = get_option( 'echizenya_paypal_express_checkout' );
   $config = shortcode_atts( array(
     'id' => '',
     'total' => '0',
 		'currency' => '',
     'color' => '',
 		'size' => '',
+    'env' => $option['env'],
+    'client' => $option['client'],
 	), $atts );
+
   // id、価格、通貨のいずれかがない場合は実行終了
-  if ( !$config['id'] || $config['total'] === '0' || !$config['currency'] ) return;
-  // 実行環境の切り替え
-  if( 'sandbox' === get_option('env')) {
-    // テスト環境
-    $dev = "'sandbox'";
-    $clientid = get_option('client');
-    $token = "sandbox: '{$clientid}'";
-  } elseif( 'production' === get_option('env')) {
-    // 本番環境
-    $dev = "'production'";
-    $clientid = get_option('client');
-    $token = "production: '{$clientid}'";
-  } else {
-    return;
-  }
+  if ( ! $config['id'] ||
+       $config['total'] === '0' ||
+       ! $config['currency'] ||
+       ! $config['env'] ||
+       ! $config['client']
+  ) return;
+
   $paypaldiv = '<div id="' . $config['id'] . '"></div>';
   $paypaldiv .= "<script>
 		paypal.Button.render({
-			env: {$dev},
+			env: '$config[env]',
 			client: {
-				{$token},
+				$config[env]: '$config[client]',
 			},
 			style: {
 				color: '$config[color]',
