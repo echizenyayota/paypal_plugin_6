@@ -79,7 +79,7 @@ function paypaldiv_func( $atts ){
 			onAuthorize: function(data, actions) {
 				return actions.payment.execute().then(function() {
 					window.alert('Payment Complete!');
-				});
+				});git
 			}
 		}, '#$config[id]');
 	</script>";
@@ -87,12 +87,3 @@ function paypaldiv_func( $atts ){
   return $paypaldiv;
 }
 add_shortcode( 'paypaldiv', 'paypaldiv_func' );
-function paypalexpresscheckout_add_admin_menu(){
-    add_submenu_page('plugins.php','PayPal Express Checkoutの設定','PayPal Express Checkoutの設定', 'administrator', __FILE__, 'paypalexpresscheckout_admin_menu');
-    add_action( 'admin_init', 'register_paypalsettings' );
-}
-add_action('admin_menu', 'paypalexpresscheckout_add_admin_menu');
-function register_paypalsettings() {
-	register_setting( 'paypal-settings-group', 'env' );
-  register_setting( 'paypal-settings-group', 'client' );
-}
