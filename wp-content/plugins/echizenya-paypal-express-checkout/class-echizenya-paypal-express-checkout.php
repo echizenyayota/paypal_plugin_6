@@ -62,6 +62,10 @@ class Echizenya_PayPal_Express_Checkout {
   // 入力項目のサニタイズ
   public function sanitize( $input ) {
     $new_input = array();
+
+    if( isset( $input['env'] ) ) {
+      $new_input['env'] = sanitize_text_field( $input['env'] );
+    }
     if( isset( $input['client'] ) ) {
       $new_input['client'] = sanitize_text_field( $input['client'] );
     }
